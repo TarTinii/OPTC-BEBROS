@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Treasure Cruise - Infos et Événements</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="images/favicon.png">
+</head>
+<body>
+    <header>
+    <img src="https://media.discordapp.net/attachments/762948804034035713/1267151948973473954/1721503253845.png?ex=66a7beb7&is=66a66d37&hm=de78f2be0ddcea0611274cfb0076bc72b38612143bf753cc52258b220d7c08af&=&format=webp&quality=lossless&width=686&height=290" alt="Logo du site" id="site-logo">
+        <h1>One Piece Treasure Cruise News</h1>
+        <nav>
+        <div id="loading">
+        <img src="https://optc-ww.channel.or.jp/fr/common/images/loading.gif" alt="Loading...">
+    </div>
+            <div id="clocks">
+            <div id="pst-clock" onclick="showPSTTime()">PST: <span id="pst-time"></span></div>
+            <div id="europe-clock" onclick="showEuropeTime()">Europe: <span id="europe-time"></span></div>
+        </div>
+            <ul>
+                <li><a href="#infos">Infos</a></li>
+                <li><a href="#evenements">Événements en cours</a></li>
+                <li><a href="#portails">Portails d'Invocations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="maintenance-info" class="maintenance-info"></div>
+
+
+    <main>
+        <section id="infos">
+            <h2>Informations sur le jeu</h2>
+            <div id="infos-container">
+
+            </div>
+        </section>
+        <section id="evenements">
+            <h2>Événements en cours</h2>
+            <div id="events-container">
+
+            </div>
+        </section>
+        <section id="portails">
+            <h2>Portails d'Invocations</h2>
+            <div id="portails-container">
+
+            </div>        
+        </section>
+    </main>
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close-button">&times;</span>
+        <h3>Titre de la popup</h3>
+        <p class="popup-description">Description de la popup</p>
+        <p id="popup-text">Texte supplémentaire dans la popup</p>
+        <div id="popup-text-container"></div> 
+        <div id="characters-container">
+
+        </div>
+        <div id="image-container">
+
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="https://optc-db.github.io/">OPTC DB</a></li>
+            <li><a href="#">Lindorm Tools</a></li>
+            <li><a href="#">Optc Artwork</a></li>
+        </ul>
+        <p>&copy; 2024 One Piece Treasure Cruise Français</p>
+    </footer>
+    <script src="js/portails.js"></script>
+    <script src="js/evenements.js"></script>
+    <script src="js/infos.js"></script>
+    <script src="js/clocks.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/maintenance.js"></script>
+</body>
+</html>
