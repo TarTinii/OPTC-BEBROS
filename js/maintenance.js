@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const maintenanceContainer = document.getElementById("maintenance-info");
 
-    const maintenanceStart = "2024-08-02T02:00:00";
-    const maintenanceEnd = "2024-08-02T06:08:00";
+    const maintenanceStart = "2024-08-02T00:00:00";
+    const maintenanceEnd = "2024-08-02T08:08:00";
 
     function updateMaintenanceInfo() {
         const now = new Date();

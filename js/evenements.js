@@ -5,21 +5,21 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             title: "PKA VS ACE",
             description: "Nouveau Pka VS Ace",
-            image: "https://media.discordapp.net/attachments/935315036107333733/1266596169765879838/ENapp_banner_event_1112_8AyGlwrUQe.png?ex=66a85c1b&is=66a70a9b&hm=bc8aeb6e54438e4501b6bff105e12bde2ad3fef81d865147dc9513015309310c&=&format=webp&quality=lossless&width=620&height=300",
+            image: "images/events/pka.png",
             popupTexts: [
                 "Le taux de drops de tortues arc en ciel a été changer (Mini Boss Et Boss Principal) au level 150",
                 "Vous avez une chance supplémentaire de drops des tortues sur le boss principal au niveau 150",
             ],
             images: [
-                { src: "https://media.discordapp.net/attachments/935315036107333733/1266596169765879838/ENapp_banner_event_1112_8AyGlwrUQe.png?ex=66a85c1b&is=66a70a9b&hm=bc8aeb6e54438e4501b6bff105e12bde2ad3fef81d865147dc9513015309310c&=&format=webp&quality=lossless&width=620&height=300", alt: "Image 1" },
-                { src: "https://media.discordapp.net/attachments/935315036107333733/1266599155384582195/Untitled.png?ex=66a85ee2&is=66a70d62&hm=9c3dadb52c5f01b38c45a84728f62ccc83e1e95fb5f4aa6fdc6675c5f2036eac&=&format=webp&quality=lossless&width=421&height=608", alt: "Image 2" },
+                { src: "images/artworks/aceart.png", alt: "Image 1" },
+                { src: "images/boosts/pkaboostace.png", alt: "Image 2" },
             ],
             startDate: "2024-07-28T10:00:00Z", 
             endDate: "2024-08-25T23:59:59Z",   
             characters: [
                 {
                     name: "Ace",
-                    image: "https://media.discordapp.net/attachments/762948804034035713/1268312741274189945/Screenshot_20240731_230151.jpg?ex=66abf7c9&is=66aaa649&hm=8a913cf03b8fc8f50aec7fdb80f363155f383077a0bb429cb46640c9f3e60e65&=&format=webp&width=186&height=190"
+                    image: "images/head/headace.png"
                 },
 
             ]
@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded", function() {
          {
             title: "Grand Party",
             description: "Nouvelle Saison Grand Party",
-            image: "https://media.discordapp.net/attachments/935315036107333733/1266254267254046781/ENapp_banner_event_0898_WAZGj1x5zw.png?ex=66a86f2f&is=66a71daf&hm=fcbd3ac50cf32025922f9a4ea19f1ee2a8a47c71b921e04c4dc620eb5863106a&=&format=webp&quality=lossless&width=600&height=328",
+            image: "images/events/gp1.png",
                         images: [
-                { src: "https://media.discordapp.net/attachments/935315036107333733/1266254267254046781/ENapp_banner_event_0898_WAZGj1x5zw.png?ex=66a86f2f&is=66a71daf&hm=fcbd3ac50cf32025922f9a4ea19f1ee2a8a47c71b921e04c4dc620eb5863106a&=&format=webp&quality=lossless&width=600&height=328", alt: "Image 2" },
+                { src: "images/events/gp1.png", alt: "Image 2" },
             ],
             popupTexts: [
                 "Régles Grand Party du mois de Août ",
