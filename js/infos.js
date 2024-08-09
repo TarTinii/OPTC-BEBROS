@@ -2,6 +2,44 @@ document.addEventListener("DOMContentLoaded", function() {
     const infosContainer = document.getElementById("infos-container");
 
     const infosData = [
+          {
+           title: "Nouvelle informations sur le Super-Sugo-Fest",
+            description: "Nouvelle informations sur le Super-Sugo-Fest",
+            image: "images/events/sugoannounce.png",
+            popupTexts: [
+                "Des informations seront dévoilées lors du ONE PIECE DAY le samedi 10 Août (PDT) ",
+                "Des informations sur les personnages présents ainsi que mes dates et heures de l'évènement seront révélées",
+                "Url du Live : https://www.youtube.com/live/H3wliasJMxI"
+  
+            ],
+            images: [
+                { src: "images/events/sets.png", alt: "Image 1" },          
+            ]
+          },
+          {
+           title: "Set de soutiens au débutant",
+            description: "Set de soutiens au débutant",
+            image: "images/events/sets.png",
+            popupTexts: [
+                "Pack 160 Gemmes :",
+                "&nbsp",
+                "Gemmes arc en ciel x160",
+                "Poster de recrutement rare spécial composé uniquement de personnages exclusif au sugo fest spécialement seléctionnés x1",
+                "&nbsp",      
+                "Pack 50 Gemmes :",
+                "&nbsp",
+                "Gemmes arc en ciel x50",
+                "Manuel Universel x3",
+                "&nbsp",               
+                "Pack 15 Gemmes :",
+                "&nbsp",
+                "Gemmes arc en ciel x15",
+            ],
+            images: [
+                { src: "images/events/sets.png", alt: "Image 1" },          
+            ]
+          },
+
         {
             title: "Nouvelle Mise à Jour 14.1",
             description: "Détails de la mise a jour 14.1",
@@ -22,7 +60,6 @@ document.addEventListener("DOMContentLoaded", function() {
                { src: "images/events/eventui.png", alt: "Image 4" },           
             ]
        },
-
 
 
           {

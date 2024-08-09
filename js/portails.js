@@ -39,6 +39,31 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
         },
 
+
+        {
+            title: "Nouveau Portail PVP",
+            description: "Détails du nouveau portail PVP",
+            image: "images/events/portail2.png",
+            popupTexts: [
+
+            ],
+            startDate: "2024-07-02T10:00:00", 
+            endDate: "2024-08-31T23:59:59",   
+            images: [
+               { src: "images/portail/pvp1-1.png", alt: "Image 1" },
+               { src: "images/portail/pvp1-2.png", alt: "Image 2" },
+               { src: "images/portail/pvp1-3.png", alt: "Image 3" },           
+               ],
+            characters: [
+                {
+                    name: "Octy",
+                    image: "images/head/headocty.png",
+                    newbatch: true
+                },
+            ]
+        },
+
+
     ];
 
     function createPortailCards(data) {

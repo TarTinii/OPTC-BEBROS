@@ -25,34 +25,67 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
         },
 
-
-         {
-            title: "Grand Party",
-            description: "Nouvelle Saison Grand Party",
-            image: "images/events/gp1.png",
-                        images: [
-                { src: "images/events/gp1.png", alt: "Image 2" },
-            ],
+//
+        {
+            title: "Quêtes Coop de l'été 2024",
+            description: "Nouvelle Saison Coop",
+            image: "images/events/coop.png",
+            images: [
+            { src: "images/events/coop.png", alt: "Image 2" }, ],
             popupTexts: [
-                "Régles Grand Party du mois de Août ",
-                "Buff :",
-                "Qck : Vitesses Lvl 5 -> Atk  Lvl 10 -> B",
-                "Classe Tenace : HP Lvl 10 ",
-                "Classe Libre & Cogneur : Def Lvl 5 ->",
-                "Augmente le nombre d'utilisation du burst + 1 pour les personnages de type QCK de classe TENACE",
-                "Nerf",
-                "Dex : Réduit la Def Lvl 10 ",
-                "Sabreur : Réduit la Vitesses des coups spéciaux lvl 5"
+            "Le Co-Op durera UNE semaine CHAQUE mois, avec des règles/personnages boostés différents qui culmineront en un Sugofest Co-Op après 3 mois.", 
+            "&nbsp",
+            "il y a un ensemble similaire de missions Chopperman disponibles pendant la période, comme lors de la précédente saison Co-Op (cette fois pour différents types/classes/styles de combat).",
+            "&nbsp",
+            "Un onglet Événement a été ajouté avec Pirate King Adventures Vs. Ace",
+            "&nbsp",
+            "Les missions pour les débutants de moins de 10M de primes sont maintenant de moins de 30M",
+            "&nbsp",
+            "L'unités Ulti est désormais utilisable",
+            "&nbsp",
+            "Missions Chopperman",
+            "&nbsp",
+            "INT Slashers ou Driven",
+            "PSY Free Spirit ou Cerebral",
+            "QCK Strikers ou Powerhouse",
             ],
-            startDate: "2024-08-02T10:00:00", 
-            endDate: "2024-08-07T23:59:59",   
+            startDate: "2024-08-06T10:00:00", 
+            endDate: "2024-08-13T23:59:59",   
             characters: [
  
             ]
 
-        },
+       },
+
+        {
+            title: "Missions D'obtention de pierres d'orientation de Baggy",
+            description: "Détails des missions de baggy",
+            image: "images/events/baggyevents.png",
+            startDate: "2024-08-07T10:00:00", 
+            endDate: "2024-08-23T23:59:59",   
+            popupTexts: [
+                "5 Quêtes : Fragments de chaque couleurs x60",
+                "10 Quêtes : Fragments de chaque couleurs x60",
+                "&nbsp",
+                "15 Quêtes : Cristal de chaque couleurs x30",
+                "20 Quêtes : Cristal de chaque couleurs x30",
+                "&nbsp",
+                "25 Quêtes : Orbe de chaque couleurs x5",
+                "30 Quêtes : Orbe de chaque couleurs x5",
+
+            ],
+            images: [
+                { src: "images/events/baggyevents.png", alt: "Image 1" },     
+            ]
+       },
 
 
+
+
+
+
+
+//
 
     ];
 
