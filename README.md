@@ -10,7 +10,7 @@ This Website was made for display all news availaible on optc
 ## Authors
 - [TarTini]
 
-## Contribuators
+## Contributors
 - [lindorm]
 - [Yurin]
 
