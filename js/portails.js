@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
             characters: [
                 {
                     name: "LuffyVsKaido",
-                    image: "images/head/luffyvskaido.png",
+                    image: "images/head/headLuffyVsKaido.png",
                     newbatch: true
                 },
                 {
