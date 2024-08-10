@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
             description: "Bonus de connexion Super Féroces",
             image: "images/events/bns1.png",
             popupTexts: [
-                "Ce ne sont pas des tickets rouges seulement des tickets",
-                "Qui ont 10% de chance (avant 5) d'être des tickets rouges",
+                "Ce ne sont pas des tickets rouge seulement des tickets",
+                "Qui ont 10% de chance (avant 5) d'étre des tickets rouge",
             ],
             images: [
                 { src: "images/events/bns1.png", alt: "Image 1" },
@@ -32,11 +32,11 @@ document.addEventListener("DOMContentLoaded", function() {
             startDate: "2024-08-11T10:00:00", 
             endDate: "2024-08-15T23:59:59",   
             popupTexts: [
-                "Dans celui-ci vous ne pouvez pas perdre",
-                "Les actualisations sont infinies peu importe votre nombre de victoires",  
-                "Et vous pouvez le retenter a l'infini", 
+                "Dans celui ci vous ne pouvez pas perdre",
+                "Les actualisation sont infini peut importe votre nombre de victoire",  
+                "Et vous pouvez le retenté a l'infini", 
                 "&nbsp",                           
-                "Gagnez jusqu'à 50 gemmes arc-en-ciel",  
+                "Gagnez jusqu'a 50 gemmes arc en ciel",  
                 "Ainsi que 3.000.000 de primes",  
 
             ],

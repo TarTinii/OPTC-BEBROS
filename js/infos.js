@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             description: "Gagner 50 Gemmes en likant le tweet OPTC",
             image: "images/events/sns1-1.png",
             popupTexts: [
-                "50 gemmes offertes si le tweet dépasse les 10k likes",
+                "50 Gemmes offerte si le tweet dépasse les 10k likes",
                 "RT + LIKE sont comptés ensemble dans l'objectif",
                 ""
   
