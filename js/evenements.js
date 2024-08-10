@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
             description: "Bonus de connexion Super Féroces",
             image: "images/events/bns1.png",
             popupTexts: [
-                "Ce ne sont pas des tickets rouge seulement des tickets",
-                "Qui ont 10% de chance (avant 5) d'étre des tickets rouge",
+                "Ce ne sont pas des tickets rouges seulement des tickets",
+                "Qui ont 10% de chance (avant 5) d'être des tickets rouges",
             ],
             images: [
                 { src: "images/events/bns1.png", alt: "Image 1" },
