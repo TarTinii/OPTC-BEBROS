@@ -2,6 +2,50 @@ document.addEventListener("DOMContentLoaded", function() {
     const eventsContainer = document.getElementById("events-container");
 
     const eventsData = [
+
+
+
+        {
+            title: "Bonus de connexion",
+            description: "Bonus de connexion Super Féroces",
+            image: "images/events/bns1.png",
+            popupTexts: [
+                "Ce ne sont pas des tickets rouge seulement des tickets",
+                "Qui ont 10% de chance (avant 5) d'étre des tickets rouge",
+            ],
+            images: [
+                { src: "images/events/bns1.png", alt: "Image 1" },
+                { src: "images/events/bns1-1.png", alt: "Image 2" },
+            ],
+            startDate: "2024-08-10T10:00:00Z", 
+            endDate: "2024-08-23T23:59:59Z",   
+            characters: [
+ 
+
+            ]
+        },
+
+        {
+            title: "Grand Party Spécial",
+            description: "Nouveau Grand Pary spécial",
+            image: "images/events/gpsp.png",
+            startDate: "2024-08-11T10:00:00", 
+            endDate: "2024-08-15T23:59:59",   
+            popupTexts: [
+                "Dans celui ci vous ne pouvez pas perdre",
+                "Les actualisation sont infini peut importe votre nombre de victoire",  
+                "Et vous pouvez le retenté a l'infini", 
+                "&nbsp",                           
+                "Gagnez jusqu'a 50 gemmes arc en ciel",  
+                "Ainsi que 3.000.000 de primes",  
+
+            ],
+            images: [
+                { src: "images/events/gpsp.png", alt: "Image 1" },     
+            ]
+       },
+
+
         {
             title: "PKA VS ACE",
             description: "Nouveau Pka VS Ace",

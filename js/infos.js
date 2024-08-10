@@ -2,6 +2,26 @@ document.addEventListener("DOMContentLoaded", function() {
     const infosContainer = document.getElementById("infos-container");
 
     const infosData = [
+
+
+
+          {
+           title: "Campagne SNS",
+            description: "Gagner 50 Gemmes en likant le tweet OPTC",
+            image: "images/events/sns1-1.png",
+            popupTexts: [
+                "50 Gemmes offerte si le tweet dépasse les 10k likes",
+                "RT + LIKE sont comptés ensemble dans l'objectif",
+                ""
+  
+            ],
+            images: [
+                { src: "images/events/sns1-1.png", alt: "Image 1" },          
+            ]
+          },
+
+
+
           {
            title: "Nouvelle informations sur le Super-Sugo-Fest",
             description: "Nouvelle informations sur le Super-Sugo-Fest",

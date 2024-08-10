@@ -64,6 +64,72 @@ document.addEventListener("DOMContentLoaded", function() {
         },
 
 
+        {
+            title: "Nouveau Portail Super Sugo Fest",
+            description: "Détails du nouveau portail Super Sugo Fest",
+            image: "images/events/portail3.png",
+            popupTexts: [
+
+            ],
+            startDate: "2024-08-11T02:00:00", 
+            endDate: "2024-10-20T02:59:59",   
+            images: [
+            //PARTIE1
+               { src: "images/portail/sp1-1.png", alt: "Image 1" },
+               { src: "images/portail/sp1-2.png", alt: "Image 2" },
+               { src: "images/portail/sp1-3.png", alt: "Image 3" },     
+               { src: "images/portail/sp1-4.png", alt: "Image 4" },     
+               //PARTIE2
+               { src: "images/portail/sp2-1.png", alt: "Image 6" },     
+               { src: "images/portail/sp2-3.png", alt: "Image 7" },          
+               { src: "images/portail/sp2-4.png", alt: "Image 9" },      
+               { src: "images/portail/sp2-5.png", alt: "Image 10" },     
+                //PARTIE3
+               { src: "images/portail/sp3-1.png", alt: "Image 11" }, 
+               { src: "images/portail/sp3-2.png", alt: "Image 12" }, 
+               { src: "images/portail/sp3-3.png", alt: "Image 13" }, 
+               { src: "images/portail/sp3-4.png", alt: "Image 14" }, 
+               //PARTIE4
+               { src: "images/portail/sp4-1.png", alt: "Image 15" },
+               { src: "images/portail/sp4-2.png", alt: "Image 16" }, 
+               { src: "images/portail/sp4-3.png", alt: "Image 17" }, 
+               //ALLPARTS
+               { src: "images/portail/ap1-1.png", alt: "Image 15" },
+               { src: "images/portail/ap1-2.png", alt: "Image 15" },
+               ],
+            characters: [
+                {
+                    name: "LuffyVsKaido",
+                    image: "images/head/headLuffyVsKaido.png",
+                    newbatch: true
+                },
+                {
+                    name: "Yamato",
+                    image: "images/head/headyamato.png",
+                    newbatch: true
+                },
+                {
+                    name: "KinemonCrew",
+                    image: "images/head/headkinemoncrew.png",
+                    newbatch: true
+                },
+                {
+                    name: "ZoroTaro",
+                    image: "images/head/headzorotaro.png",
+                    newbatch: true
+                },                
+                {
+                    name: "Sangoro",
+                    image: "images/head/headsangoro.png",
+                    newbatch: true
+                },  
+
+            ]
+        },
+
+
+
+
     ];
 
     function createPortailCards(data) {
