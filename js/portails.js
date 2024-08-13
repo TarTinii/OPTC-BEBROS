@@ -65,8 +65,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
         {
-            title: "Nouveau Portail Super Sugo Fest",
-            description: "Détails du nouveau portail Super Sugo Fest",
+            title: "Nouveau Portail Super Sugo-Fest",
+            description: "Détails du nouveau portail Super Sugo-Fest",
             image: "images/events/portail3.png",
             popupTexts: [
 
