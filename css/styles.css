@@ -134,6 +134,19 @@ section {
     border-radius: 5px;
     font-size: 0.8em;
     font-weight: bold;
+
+}
+
+.boost-banner{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: lightseagreen;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 .popup {

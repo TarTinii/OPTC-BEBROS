@@ -33,6 +33,7 @@ function showPopup(title, description, popupTexts, characters, images) {
             characterCard.innerHTML = `
                 ${character.recommended ? '<div class="recommended-banner">Recommandé</div>' : ''}
                 ${character.newbatch ? '<div class="newbatch-banner">Nouveau Batch</div>' : ''}
+                ${character.boost ? '<div class="boost-banner">Boost</div>' : ''}
                 <img src="${character.image}" alt="${character.name}">
                 <p>${character.name}</p>
             `;

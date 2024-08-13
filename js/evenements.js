@@ -1,8 +1,49 @@
 document.addEventListener("DOMContentLoaded", function () {
     const eventsContainer = document.getElementById("events-container");
 
+
     const eventsData = [
 
+        {
+            title: "Super Map au trésors",
+            description: "Super Map au trésors vs ACE",
+            image: "images/events/tmace.png",
+            popupTexts: [
+                "Gagnez de nombreuses récompenses",
+                "Et évoluée ace dans ça version 6+",
+            ],
+            images: [
+                { src: "images/events/tmace.png", alt: "Image 1" },
+                { src: "images/events/tm1-1.png", alt: "Image 2" },
+                { src: "images/events/tm1-2.png", alt: "Image 2" },
+                { src: "images/events/tm1-3.png", alt: "Image 2" },
+                { src: "images/events/tm1-4.png", alt: "Image 2" },
+                { src: "images/events/tm1-5.png", alt: "Image 2" },
+                { src: "images/events/tm1-6.png", alt: "Image 2" },
+                { src: "images/events/tm1-7.png", alt: "Image 2" },
+                { src: "images/events/tm1-8.png", alt: "Image 2" },
+                { src: "images/events/tm1-9.png", alt: "Image 2" },
+            ],
+            startDate: "2024-08-14T11:00:00Z",
+            endDate: "2024-08-18T15:59:59Z",
+            characters: [
+                {
+                    name: "LuffyVsKaido",
+                    image: "images/head/headluffyvskaido.png",
+                    boost: true
+                },
+                {
+                    name: "Yamato",
+                    image: "images/head/headyamato.png",
+                    boost: true
+                },
+                {
+                    name: "KinemonCrew",
+                    image: "images/head/headkinemoncrew.png",
+                    boost: true
+                },
+            ]
+        },
 
 
         {
@@ -70,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             ]
         },
-        {
+ /*       {
             title: "Quêtes CooOp de l'été 2024",
             description: "Nouvelle Saison Co-op",
             image: "images/events/coop.png",
@@ -99,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             ]
 
-        },
+        },*/
 
         {
             title: "Missions d'obtention de pierres d'orientation de Baggy",
