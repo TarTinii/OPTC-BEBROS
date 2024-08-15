@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         {
-            title: "Tirages au sort de la Carte aux trésors",
-            description: "Tirages au sort de la Carte aux trésors",
+            title: "Tirage au sort de la Carte aux trésors",
+            description: "Tirage au sort de la Carte aux trésors",
             image: "images/events/lototm1.png",
             popupTexts: [
                 "Voir récompenses ci-dessous",
@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
             ],
             images: [
                 { src: "images/events/lototm2.png", alt: "Image 1" },
-                { src: "images/events/lototm3.png", alt: "Image 2" },
                 { src: "images/events/lototm4.png", alt: "Image 3" },
             ],
             startDate: "2024-08-14T10:00:00Z",
@@ -24,20 +23,20 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
         {
-            title: "Super Map au trésors",
-            description: "Super Map au trésors vs ACE",
+            title: "Super Carte aux trésors",
+            description: "Super Carte aux trésors vs ACE",
             image: "images/events/tmace.png",
             popupTexts: [
                 "Gagnez de nombreuses récompenses",
-                "Et évoluée ace dans ça version 6+",
+                "Et évoluez Ace dans sa version 6+",
+                "&nbsp",
+                "↓ Retrouvez la liste des personnages boostés ci-dessous ↓",
             ],
             images: [
-                { src: "images/events/tmace.png", alt: "Image 1" },
                 { src: "images/events/tm1-1.png", alt: "Image 3" },
                 { src: "images/events/tm1-2.png", alt: "Image 4" },
                 { src: "images/events/tm1-3.png", alt: "Image 5" },
                 { src: "images/events/tm1-4.png", alt: "Image 6" },
-                { src: "images/events/tm1-5.png", alt: "Image 7" },
                 { src: "images/events/tm1-6.png", alt: "Image 8" },
                 { src: "images/events/tm1-7.png", alt: "Image 9" },
                 { src: "images/events/tm1-8.png", alt: "Image 10" },
