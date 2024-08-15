@@ -4,6 +4,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const eventsData = [
 
+
+
+        {
+            title: "Tirages au sort de la Carte aux trésors",
+            description: "Tirages au sort de la Carte aux trésors",
+            image: "images/events/lototm1.png",
+            popupTexts: [
+                "Voir récompenses ci-dessous",
+                "",
+            ],
+            images: [
+                { src: "images/events/lototm2.png", alt: "Image 1" },
+                { src: "images/events/lototm3.png", alt: "Image 2" },
+                { src: "images/events/lototm4.png", alt: "Image 3" },
+            ],
+            startDate: "2024-08-14T10:00:00Z",
+            endDate: "2024-08-18T23:59:59Z",
+        },
+
         {
             title: "Super Map au trésors",
             description: "Super Map au trésors vs ACE",
@@ -14,15 +33,15 @@ document.addEventListener("DOMContentLoaded", function () {
             ],
             images: [
                 { src: "images/events/tmace.png", alt: "Image 1" },
-                { src: "images/events/tm1-1.png", alt: "Image 2" },
-                { src: "images/events/tm1-2.png", alt: "Image 2" },
-                { src: "images/events/tm1-3.png", alt: "Image 2" },
-                { src: "images/events/tm1-4.png", alt: "Image 2" },
-                { src: "images/events/tm1-5.png", alt: "Image 2" },
-                { src: "images/events/tm1-6.png", alt: "Image 2" },
-                { src: "images/events/tm1-7.png", alt: "Image 2" },
-                { src: "images/events/tm1-8.png", alt: "Image 2" },
-                { src: "images/events/tm1-9.png", alt: "Image 2" },
+                { src: "images/events/tm1-1.png", alt: "Image 3" },
+                { src: "images/events/tm1-2.png", alt: "Image 4" },
+                { src: "images/events/tm1-3.png", alt: "Image 5" },
+                { src: "images/events/tm1-4.png", alt: "Image 6" },
+                { src: "images/events/tm1-5.png", alt: "Image 7" },
+                { src: "images/events/tm1-6.png", alt: "Image 8" },
+                { src: "images/events/tm1-7.png", alt: "Image 9" },
+                { src: "images/events/tm1-8.png", alt: "Image 10" },
+                { src: "images/events/tm1-9.png", alt: "Image 11" },
             ],
             startDate: "2024-08-14T11:00:00Z",
             endDate: "2024-08-18T15:59:59Z",
@@ -60,10 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
             ],
             startDate: "2024-08-10T10:00:00Z",
             endDate: "2024-08-23T23:59:59Z",
-            characters: [
-
-
-            ]
         },
 
         {
@@ -78,7 +93,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "peut importe votre nombre de victoire.",
                 "&nbsp",
                 "Gagnez jusqu'à 50 gemmes arc-en-ciel, et 3.000.000 de primes.",
-
             ],
             images: [
                 { src: "images/events/gpsp.png", alt: "Image 1" },
@@ -157,7 +171,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "&nbsp",
                 "25 Quêtes : Orbe de chaque couleur x5",
                 "30 Quêtes : Orbe de chaque couleur x5",
-
             ],
             images: [
                 { src: "images/events/baggyevents.png", alt: "Image 1" },
@@ -165,12 +178,6 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
 
-
-
-
-
-
-        //
 
     ];
 
