@@ -4,8 +4,66 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const eventsData = [
 
-
-
+        {
+            title: "Alliance pirate du combat de l'amitié ! Vs Sakazuki",
+            description: "Alliance pirate du combat de l'amitié ! Vs Sakazuki",
+            image: "images/events/kizunaevolvesakazuki.png",
+            popupTexts: [
+                "Lors de ce combat de l'amitié Sakazuki Super évolue dans ça rareté 6+ Ainsi que hiyori et Otoko dans leur rareté 5+",
+                "&nbsp",
+                "Les crâne de Cristal de Sakazuki sont obtensible dans les listes 2 a 6",
+                "&nbsp",
+                "Tandis que les crâne de Hiyori & Otoko le seront dans les listes 6 & 7 (Ainsi que dans les missions d'alliances)",
+                "&nbsp",
+                "De plus une limite pour les niveau 7 étoiles et 3 étoiles on été mis en place",
+                "&nbsp",
+                "3★ Lvl 100 Maximum",
+                "7★ Lvl 150 Maximum",
+            ],
+            images: [
+                { src: "images/events/kizunaevolvesakazuki.png", alt: "Image 1" },
+                { src: "images/artworks/kizunaevolvesakazuki2.png", alt: "Image 1" },
+                { src: "images/artworks/hiyotoko.png", alt: "Image 1" },
+            ],
+            startDate: "2024-08-20T10:00:00Z",
+            endDate: "2024-08-25T23:59:59Z",
+            /*characters: [
+                {
+                    name: "Whitebeard",
+                    image: "images/head/Sakazuki.png",
+                    boost: true
+                },
+                {
+                    name: "Sakazuki",
+                    image: "images/head/Whitebeard.png",
+                    boost: true
+                },
+                {
+                    name: "Sakazuki",
+                    image: "images/head/hiyotoko.png",
+                    boost: true
+                },
+            ],*/
+        },
+//
+        {
+            title: "Campagne Super Carte aux trésors",
+            description: "Campagne Super Carte aux trésors",
+            image: "images/events/tmsns1.png",
+            popupTexts: [
+                "Objectif : 300 Posts avec le # spécifié et vos teams actuel pour la Carte aux trésors",
+                "&nbsp",
+                "Récompenses : 12 Essai au recrutement Sugo-Rare (4 toutes les 100 publications)",
+                "&nbsp",
+                "Conditions de participation : Terminé 1 runs de la Carte aux trésors ! ",
+            ],
+            images: [
+                { src: "images/events/tmsns1.png", alt: "Image 1" },
+            ],
+            startDate: "2024-08-14T10:00:00Z",
+            endDate: "2024-08-18T23:59:59Z",
+        },
+//
         {
             title: "Tirage au sort de la Carte aux trésors",
             description: "Tirage au sort de la Carte aux trésors",
@@ -21,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
             startDate: "2024-08-14T10:00:00Z",
             endDate: "2024-08-18T23:59:59Z",
         },
-
+//
         {
             title: "Super Carte aux trésors",
             description: "Super Carte aux trésors vs ACE",
@@ -62,8 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ]
         },
-
-
+//
         {
             title: "Bonus de connexion",
             description: "Bonus de connexion Super Féroces",
@@ -79,8 +136,8 @@ document.addEventListener("DOMContentLoaded", function () {
             startDate: "2024-08-10T10:00:00Z",
             endDate: "2024-08-23T23:59:59Z",
         },
-
-        {
+//
+   /*     {
             title: "\"Grand Party\" Spéciale",
             description: "Nouvelle saison \"Grand Party\" spéciale",
             image: "images/events/gpsp.png",
@@ -97,8 +154,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 { src: "images/events/gpsp.png", alt: "Image 1" },
             ]
         },
-
-
+*/
+//
         {
             title: "PKA VS ACE",
             description: "Nouveau Pka VS Ace",
@@ -124,6 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             ]
         },
+ //       
  /*       {
             title: "Quêtes CooOp de l'été 2024",
             description: "Nouvelle Saison Co-op",
@@ -154,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ]
 
         },*/
-
+//
         {
             title: "Missions d'obtention de pierres d'orientation de Baggy",
             description: "Détails des missions de baggy",
@@ -175,9 +233,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 { src: "images/events/baggyevents.png", alt: "Image 1" },
             ]
         },
-
-
-
     ];
 
     function createEventCards(data) {
