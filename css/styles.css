@@ -92,6 +92,35 @@ section {
     top: 0;
 }
 
+#reward-info {
+    display: none;
+    background-color: #ff0000;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    font-weight: 700;
+    border-bottom: 5px solid #ffffff;
+    font-family: 'Roboto', sans-serif;
+    transition: top 0.3s ease-in-out;
+}
+
+#reward-info span {
+    font-weight: 900;
+    color: #d35400;
+}
+
+#reward-info.show {
+    display: block;
+    top: 0;
+}
+
+
 .character-card {
     position: relative;
     background-color: #fff;
