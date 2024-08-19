@@ -2,6 +2,43 @@ document.addEventListener("DOMContentLoaded", function() {
     const portailsContainer = document.getElementById("portails-container");
 
     const portailsData = [
+
+        {
+            title: "Nouveau Portail Kizuna",
+            description: "Détails du nouveau portail PKA",
+            image: "images/events/portailkizu1.png",
+            popupTexts: [
+
+            ],
+            startDate: "2024-07-28T10:00:00", 
+            endDate: "2024-08-30T23:59:59",   
+            images: [
+               { src: "images/portail/kizu1-1.png", alt: "Image 1" },
+               { src: "images/portail/kizu2-1.png", alt: "Image 2" },
+               { src: "images/portail/kizuallpart.png", alt: "Image 3" },  
+               ],
+            characters: [
+                {
+                    name: "WhiteBeard",
+                    image: "images/head/whitebeard.png",
+                    newbatch: true
+                },
+                                {
+                    name: "Vista",
+                    image: "images/head/vista.png",
+                    newbatch: true
+                },
+                                {
+                    name: "Marco",
+                    image: "images/head/marco.png",
+                    newbatch: true
+                },
+            ]
+        },
+
+
+
+
         {
             title: "Nouveau Portail",
             description: "Détails du nouveau portail PKA",

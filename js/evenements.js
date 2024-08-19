@@ -25,23 +25,23 @@ document.addEventListener("DOMContentLoaded", function () {
             ],
             startDate: "2024-08-20T10:00:00Z",
             endDate: "2024-08-25T23:59:59Z",
-            /*characters: [
+            characters: [
                 {
                     name: "Whitebeard",
-                    image: "images/head/Sakazuki.png",
+                    image: "images/head/whitebeard.png",
                     boost: true
                 },
                 {
                     name: "Sakazuki",
-                    image: "images/head/Whitebeard.png",
+                    image: "images/head/sakazuki.png",
                     boost: true
                 },
                 {
-                    name: "Sakazuki",
-                    image: "images/head/hiyotoko.png",
+                    name: "Hiyori",
+                    image: "images/head/hiyori.png",
                     boost: true
                 },
-            ],*/
+            ],
         },
 //
         {
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
             endDate: "2024-08-18T23:59:59Z",
         },
 //
-        {
+  /*      {
             title: "Super Carte aux trésors",
             description: "Super Carte aux trésors vs ACE",
             image: "images/events/tmace.png",
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     boost: true
                 },
             ]
-        },
+       }, */
 //
         {
             title: "Bonus de connexion",
