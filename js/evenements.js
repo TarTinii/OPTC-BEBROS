@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 "&nbsp",
                 "Les crânes de cristal de Sakazuki seront obtenables dans les listes 2 à 6, et ceux de Hiyori et Otoko le seront dans les listes 6 et 7 (ainsi que dans les missions d'alliances).",
                 "&nbsp",
-                "Une limite pour les niveaux 7★ et 3★ a maintenant été mise en place.",
-                "&nbsp",
+                "Une limite pour les niveaux 7★ et 3★ a maintenant été mise en place :",
                 "3★ : Lvl 100 Maximum",
                 "7★ : Lvl 150 Maximum",
+                "&nbsp",
             ],
             images: [
                 { src: "images/events/kizunaevolvesakazuki.png", alt: "Image 1" },
