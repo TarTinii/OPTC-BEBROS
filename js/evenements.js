@@ -3,7 +3,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     const eventsData = [
-
+        {
+            title: "Célébration de la collaboration avec le V JUMP",
+            description: "Bonus de connexion de de la collaboration avec le V JUMP",
+            image: "images/events/vjumpcollab1.png",
+            popupTexts: [
+                "Lors de ce bonus de connexion les personnages de Baggy, Mihawk, Crocodile sont mis a l'honneur",
+                "&nbsp",
+            ],
+            images: [
+                { src: "images/events/vjumpcollab.png", alt: "Image 1" },
+                { src: "images/portail/vjump1-1.png", alt: "Image 2" },
+                { src: "images/portail/vjump1-2.png", alt: "Image 3" },
+                { src: "images/portail/vjump1-3.png", alt: "Image 4" },
+            ],
+            startDate: "2024-08-21T10:00:00Z",
+            endDate: "2024-09-21T10:00:00Z",
+        },
+//
         {
             title: "Alliance pirate du combat de l'amitié ! Vs Sakazuki",
             description: "Alliance pirate du combat de l'amitié ! Vs Sakazuki",
