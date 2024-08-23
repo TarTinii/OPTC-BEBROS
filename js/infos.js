@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const infosData = [
         {
             title: "Informations Campagnes Super TM",
-            description: "Infos des administrateur",
+            description: "Infos des administrateurs",
             image: "images/events/sns1-1-bip.png",
             popupTexts: [
-                "La date de distributions des récompenses de la campagnes super tm a été reporter au 28 aout",
-                "1 Gemmes arc en ciel a été distribué en dédomagement "
+                "La date de distribution des récompenses de la campagnes super tm a été reportée au 28 aout",
+                "1 Gemmes arc en ciel a été distribuée en dédomagement "
             ],
             images: [
                 { src: "images/events/sns1-1-bip.png", alt: "Image 1" },
