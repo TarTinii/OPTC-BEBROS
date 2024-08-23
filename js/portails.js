@@ -3,6 +3,46 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const portailsData = [
 
+
+        {
+            title: "Nouveau Portail Super Sugo-Fest",
+            description: "Détails du nouveau portail Super Sugo-Fest Barbe noir Vs Law",
+            image: "images/events/portaillawbn.png",
+            popupTexts: [
+
+            ],
+            startDate: "2024-08-24T10:00:00",
+            endDate: "2024-09-20T23:59:59",
+            images: [
+                { src: "images/portail/bnlaw.png", alt: "Image 1" },
+            ],
+            characters: [
+                {
+                    name: "LawVSBn",
+                    image: "images/head/lawbn.png",
+                    newbatch: true
+                },
+                {
+                    name: "Kuzan",
+                    image: "images/head/kuzan.png",
+                    newbatch: true
+                },
+                {
+                    name: "Burgess",
+                    image: "images/head/burgess.png",
+                    newbatch: true
+                },
+                {
+                    name: "VanAugher",
+                    image: "images/head/VanAugher.png",
+                    newbatch: true
+                },
+            ]
+        },
+
+
+
+
         {
             title: "Nouveau Portail Kizuna",
             description: "Détails du nouveau portail Kizuna",

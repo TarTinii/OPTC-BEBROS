@@ -3,17 +3,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const infosData = [
         {
-            title: "Campagne SNS",
-            description: "Gagnez 50 gemmes arc-en-ciel en likant le tweet OPTC",
-            image: "images/events/sns1-1.png",
+            title: "Informations Campagnes Super TM",
+            description: "Infos des administrateur",
+            image: "images/events/sns1-1-bip.png",
             popupTexts: [
-                "50 gemmes arc-en-ciel offertes si le tweet dépasse les 10k likes/RT",
+                "La date de distributions des récompenses de la campagnes super tm a été reporter au 28 aout",
+                "1 Gemmes arc en ciel a été distribué en dédomagement "
             ],
             images: [
-                { src: "images/events/sns1-1.png", alt: "Image 1" },
+                { src: "images/events/sns1-1-bip.png", alt: "Image 1" },
             ]
         },
-        {
+
+        /*{
             title: "Nouvelles informations sur le Super Sugo-Fest",
             description: "Nouvelles informations sur le SuperSugo-Fest",
             image: "images/events/sugoannounce.png",
@@ -26,8 +28,9 @@ document.addEventListener("DOMContentLoaded", function () {
             images: [
                 { src: "images/events/sets.png", alt: "Image 1" },
             ]
-        },
-        {
+        },*/
+
+       /* {
             title: "Set de soutien aux débutants",
             description: "Set de soutien aux débutants",
             image: "images/events/sets.png",
@@ -46,8 +49,9 @@ document.addEventListener("DOMContentLoaded", function () {
             images: [
                 { src: "images/events/sets.png", alt: "Image 1" },
             ]
-        },
-        {
+        },*/
+
+      /*  {
             title: "Nouvelle mise à Jour 14.1",
             description: "Les détails de la mise a jour 14.1",
             image: "images/events/14-1.png",
@@ -71,8 +75,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 { src: "images/events/puzzle.png", alt: "Image 3" },
                 { src: "images/events/eventui.png", alt: "Image 4" },
             ]
-        },
-        {
+        },*/
+
+      /*  {
             title: "Ajout au Bazar de Rayleigh",
             description: "Nouveaux personnages disponibles au Bazar de Rayleigh",
             image: "images/events/rayleigh.png",
@@ -106,111 +111,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
 
             ]
-        },
+        },*/
+
         {
             title: "Bazar des Medailles",
             description: "Nouveau bazar des médailles",
             image: "images/events/medail.png",
             popupTexts: [
-                "600 Medailles :",
-                "Princesses DEX", "Ulti STR",
-                "&nbsp",
-
-                "400 Médailles :",
-                "Vivi STR", "Boa PSY", "Sangoro QCK", "Judge & Sanji", "Franky QCK", "Rob Lucci QCK", "Log Luffy STR", "Boa QCK",
-                "&nbsp",
-
-                "100 Médailles :",
-                "Tashigi", "Makino", "Hina", "Carrot", "Sugar", "kalifa", "Vivi", "Shirahoshi", "Vivi", "Perona",
-                "&nbsp",
-
-                "Note : Il est recommandé de ne pas acheter de personnage Sugo-Fest dans ce shop, sauf en cas de nécessité. Les rr limités sont quant à elles intéressantes si elles possèdent un soutien intéressant."
+                "",
             ],
             images: [
-
+                { src: "images/events/bazar1.png", alt: "Image 1" },
+                { src: "images/events/bazar2.png", alt: "Image 1" },
             ],
             characters: [
-
-                {
-                    name: "Vivi (600)",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/3/900/3944.png"
-                },
-                {
-                    name: "Ulti (600)",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/3/600/3674.png"
-                },
-                {
-                    name: "Flampe",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/3/400/3405.png"
-                },
-                {
-                    name: "Flampe",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/3/000/3037.png"
-                },
-                {
-                    name: "Flampe",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/2/800/2803.png"
-                },
-                {
-                    name: "Flampe",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/2/400/2446.png"
-                },
-                {
-                    name: "Flampe",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/1/900/1934.png"
-                },
-                {
-                    name: "Flampe",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/1/700/1762.png"
-                },
-                {
-                    name: "Flampe",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/1/100/1120.png"
-                },
-                {
-                    name: "Flampe",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/0/400/0415.png"
-                },
-                {
-                    name: "Tashigi",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/3/400/3412.png"
-                },
-                {
-                    name: "Makino",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/3/400/3413.png"
-                },
-                {
-                    name: "Hina",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/3/400/3414.png"
-                },
-                {
-                    name: "Carrot",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/2/600/2626.png"
-                },
-                {
-                    name: "Sugar",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/2/600/2624.png"
-                },
-                {
-                    name: "kalifa",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/2/600/2621.png"
-                },
-                {
-                    name: "vivi",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/2/600/2619.png",
-                },
-                {
-                    name: "shirahoshi",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/2/100/2172.png",
-                },
-                {
-                    name: "Vivi",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/1/700/1730.png"
-                },
-                {
-                    name: "Perona",
-                    image: "https://optc-db.github.io/api/images/thumbnail/jap/1/600/1673.png"
-                },
             ]
         },
 
