@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const infosData = [
         {
-            title: "Informations Campagnes Super TM",
-            description: "Infos des administrateurs",
+            title: "Information Campagne Super TM",
+            description: "Message des administrateurs",
             image: "images/events/sns1-1-bip.png",
             popupTexts: [
-                "La date de distribution des récompenses de la campagnes super tm a été reportée au 28 aout",
-                "1 Gemmes arc en ciel a été distribuée en dédomagement "
+                "La date de distribution des récompenses de la campagnes Super TM a été reportée au 28 aout.",
+                "1 gemmes arc-en-ciel a été distribuée en dédomagement."
             ],
             images: [
                 { src: "images/events/sns1-1-bip.png", alt: "Image 1" },
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },*/
 
         {
-            title: "Bazar des Medailles",
+            title: "Bazar des Médailles",
             description: "Nouveau bazar des médailles",
             image: "images/events/medail.png",
             popupTexts: [
