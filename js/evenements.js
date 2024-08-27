@@ -18,11 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "Classement Personnel Mondial",
         "Classement d'Alliance Mondial",
         "&nbsp",
-        "Pendant cette période, vous ne pouvez pas créer, dissoudre, quitter, ni renvoyer des membres d'une alliance. Vous pouvez cependant en rejoindre une",
+        "Pendant cette période, vous ne pourrez pas créer, dissoudre, quitter, ni renvoyer des membres d'une alliance. Vous pouvez cependant en rejoindre une.",
         "&nbsp",
-        "Les récompenses seront distribuées après le **6 septembre**",
-        "&nbsp",
-        "Veuillez notez que les récompenses sont différents et sont distribuées en fonction de votre classement dans les classement cités au dessus ! ",
+        "Les récompenses seront distribuées après le 6 septembre. Veuillez notez que chaque classement permettra d'obtenir des récompenses différentes.",
     ],
     "images": [
         { "src": "images/events/blitz1.png", "alt": "Image 1" },
