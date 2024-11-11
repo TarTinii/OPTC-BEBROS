@@ -108,6 +108,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 "",
                 "",
             ],
+     characters: [
+                {
+                    name: "crocodile",
+                    image: "images/head/croco.png",
+                    boost: true
+                },
+            ],
+        },
+                    
             startDate: "2024-11-11T04:00:00Z",
             endDate: "2024-12-09T05:00:59Z",
         },
