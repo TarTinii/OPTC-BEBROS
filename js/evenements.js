@@ -4,136 +4,120 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const eventsData = [
 
-{
-    "title": "Nouveau \"BLITZ\" Garp VS Kuzan",
-    "description": "Nouveau \"BLITZ\" Garp VS Kuzan",
-    "image": "images/events/blitz1.png",
-    "startDate": "2024-08-31T10:00:00",
-    "endDate": "2024-09-02T23:59:59",
-    "popupTexts": [
-        "Il y a 4 classements différents :",
-        "&nbsp",
-        "Classement Personnel",
-        "Classement d'Alliance In-App",
-        "Classement Personnel Mondial",
-        "Classement d'Alliance Mondial",
-        "&nbsp",
-        "Pendant cette période, vous ne pourrez pas créer, dissoudre, quitter, ni renvoyer des membres d'une alliance. Vous pouvez cependant en rejoindre une.",
-        "&nbsp",
-        "Les récompenses seront distribuées après le 6 septembre. Veuillez notez que chaque classement permettra d'obtenir des récompenses différentes.",
-    ],
-    "images": [
-        { "src": "images/events/blitz1.png", "alt": "Image 1" },
-        { "src": "images/boosts/blitz1boost.png", "alt": "Image 1" },
-    ]
-},
-
-
-
-   {
-            title: "Nouvelle Saison \"Grand Party\"",
-            description: "Nouvelle saison \"Grand Party\"",
-            image: "images/events/gp1.png",
-            startDate: "2024-08-31T10:00:00",
-            endDate: "2024-09-05T23:59:59",
+        {
+            title: "Super Carte aux trésors",
+            description: "Super Carte aux trésors vs ACE",
+            image: "images/events/tmvsvega.png",
             popupTexts: [
-                "Gagnez jusqu'à 50 gemmes arc-en-ciel, et 3.000.000 de primes.",
-            ],
-            images: [
-                { src: "images/events/gp1.png", alt: "Image 1" },
-            ]
-        },
-
-{
-            title: "PKA VS BEPO",
-            description: "Nouveau Pka VS Bepo",
-            image: "images/events/pkabepo.png",
-            popupTexts: [
-                "Obtenez le nouveau Ace en récompenses de victoire,",
-                "en augmentant le level de votre boss principal.",
+                "Gagnez de nombreuses récompenses",
+                "Et évoluez VegaPunk dans sa version 5+",
                 "&nbsp",
-                "Le taux de drop des tortues arc-en-ciel est également augmenté",
-                "lorsque vous atteignez le level 150 sur le boss principal.",
+                "↓ Retrouvez la liste des personnages boostés ci-dessous ↓",
             ],
             images: [
-                { src: "images/artworks/bepoart.png", alt: "Image 1" },
-                { src: "images/boosts/pkaboostbepo.png", alt: "Image 2" },
+                { src: "images/events/tm11-1.png", alt: "Image 3" },
+                { src: "images/events/tm11-2.png", alt: "Image 4" },
+                { src: "images/events/tm11-3.png", alt: "Image 5" },
+                { src: "images/events/tm11-4.png", alt: "Image 6" },
+                { src: "images/events/tm11-6.png", alt: "Image 8" },
+                { src: "images/events/tm11-7.png", alt: "Image 9" },
+                { src: "images/events/tm11-8.png", alt: "Image 10" },
+                { src: "images/events/tm11-9.png", alt: "Image 11" },
             ],
-            startDate: "2024-08-26T10:00:00Z",
-            endDate: "2024-09-28T23:59:59Z",
+            startDate: "2024-11-13T11:00:00Z",
+            endDate: "2024-11-18T15:59:59Z",
             characters: [
                 {
-                    name: "Bepo",
-                    image: "images/head/bepo.png"
+                    name: "Kaido&King",
+                    image: "images/head/Kaido&King.png",
+                    boost: true
                 },
-
-            ]
-        },
-
-    {
-            title: "Quêtes CooOp de l'automme 2024",
-            description: "Nouvelle Saison Co-op",
-            image: "images/events/coop2.png",
-            images: [
-                { src: "images/events/coop2.png", alt: "Image 2" },
-                { src: "images/events/coopboost.png", alt: "Image 2" },
-                ],
-            popupTexts: [
-                "La saison Co-op de l'été s'étend de septembrre à octobre, période durant laquelle vous pourrez pendant 1 semaine par mois vous essayer aux combats en Co-op.",
-                "Chaque mois, les règles et les personnages boostés seront différents.",
-                "&nbsp",
-                "A la fin de la saison, un portail sugo-fest spécial fera son apparition, sur lequel vous pourrez faire des invocations grâce à des gemmes gagnées durants vos combats Co-op.",
-                "&nbsp",
-                "Des missions chopperman sont également disponibles chaque mois, vous permettant de récupérer de nombreuses récompenses telles que des gemmes et gemmes arc-en-ciel.",
-                "&nbsp",
-                "Désormais, les missions pourront être effectuées avec des joueurs à la prime inférieure à 30M (10M précédemment).",
-                "&nbsp",
-                "",
-            ],
-            startDate: "2024-09-04T10:00:00",
-            endDate: "2024-09-11T23:59:59",
-            characters: [
-
+                {
+                    name: "BigMom&Katakuri",
+                    image: "images/head/BigMom&Katakuri.png",
+                    boost: true
+                },
+                {
+                    name: "BarbeNoir&Shilliew",
+                    image: "images/head/BarbeNoir&Shilliew.png",
+                    boost: true
+                },
+                {
+                    name: "Shanks&BenBeckman",
+                    image: "images/head/Shanks&BenBeckman.png",
+                    boost: true
+                },
             ]
 
-        },
-
-
-
+       }, 
 
         {
             title: "Bonus de connexion",
-            description: "Bonus de connexion Super Féroces partie 2",
-            image: "images/events/bns2.png",
+            description: "Bonus de connexion 10.5 Anniversaire",
+            image: "images/events/bnsanniv10-5.png",
             popupTexts: [
-                "Recevez 1 ticket jaune par jour (10% de chance d'avoir un Sugo-Rare)",
-                "pendant 9 jours, puis 1 ticket rouge au bout du dixième jour.",
+                "Recevez 25 Gemmes Arc en Ciel",
+                "En vous connectant pendant la période",
             ],
             images: [
-                { src: "images/events/bns2.png", alt: "Image 1" },
-                { src: "images/events/bns2-2.png", alt: "Image 2" },
+                { src: "images/events/bnsanniv10-5.png", alt: "Image 1" },
+                { src: "images/events/bnsanniv10-5-2.png", alt: "Image 2" },
             ],
-            startDate: "2024-08-24T10:00:00Z",
-            endDate: "2024-09-14T23:59:59Z",
+            startDate: "2024-11-12T04:00:00Z",
+            endDate: "2024-11-12T05:00:59Z",
         },
 
-        {
-            title: "Célébration de la collaboration avec le V JUMP",
-            description: "Bonus de connexion de de la collaboration avec le V JUMP",
-            image: "images/events/vjumpcollab1.png",
+                {
+            title: "Bonus de connexion",
+            description: "Bonus de connexion les plus fort de l'ére",
+            image: "images/events/ere1.png",
             popupTexts: [
-                "Lors de ce bonus de connexion les personnages de Baggy, Mihawk, Crocodile sont mis a l'honneur",
-                "&nbsp",
+                "Recevez des barbes a papa",
+                "Ainsi que 2 ticket Sugo Fest",
             ],
             images: [
-                { src: "images/events/vjumpcollab.png", alt: "Image 1" },
-                { src: "images/portail/vjump1-1.png", alt: "Image 2" },
-                { src: "images/portail/vjump1-2.png", alt: "Image 3" },
-                { src: "images/portail/vjump1-3.png", alt: "Image 4" },
+                { src: "images/events/ere1.png", alt: "Image 1" },
+                { src: "images/events/ere2.png", alt: "Image 2" },
             ],
-            startDate: "2024-08-21T10:00:00Z",
-            endDate: "2024-09-21T10:00:00Z",
+            startDate: "2024-11-12T04:00:00Z",
+            endDate: "2024-11-27T05:00:59Z",
         },
+
+                {
+            title: "Tente ta chance chaque jours",
+            description: "Plus tu est chanceux plus tu obtiens de gemmes",
+            image: "images/events/chancezoro.png",
+            popupTexts: [
+                "",
+                "",
+            ],
+            images: [
+                { src: "images/events/zorochance1.png", alt: "Image 1" },
+                { src: "images/events/zorochance2.png", alt: "Image 2" },
+            ],
+            startDate: "2024-11-11T04:00:00Z",
+            endDate: "2024-11-27T05:00:59Z",
+        },
+
+                {
+            title: "Fêtes des pirates soutiens imprévisible",
+            description: "Obtiens Crocodile Exclusif au TM Gratuitement !",
+            image: "images/events/crocopvp.png",
+
+            popupTexts: [
+                "",
+                "",
+            ],
+            images: [
+                { src: "images/events/zorochance1.png", alt: "Image 1" },
+                { src: "images/events/zorochance2.png", alt: "Image 2" },
+            ],
+            startDate: "2024-11-11T04:00:00Z",
+            endDate: "2024-12-09T05:00:59Z",
+        },
+
+
+/* 
 //
         {
             title: "Alliance pirate du combat de l'amitié ! Vs Sakazuki",
