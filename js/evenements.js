@@ -108,10 +108,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "",
                 "",
             ],
-            images: [
-                { src: "images/events/zorochance1.png", alt: "Image 1" },
-                { src: "images/events/zorochance2.png", alt: "Image 2" },
-            ],
             startDate: "2024-11-11T04:00:00Z",
             endDate: "2024-12-09T05:00:59Z",
         },
