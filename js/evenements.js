@@ -53,10 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         {
             title: "Bonus de connexion",
-            description: "Bonus de connexion 10.5 Anniversaire",
+            description: "Bonus de connexion 10.5e Anniversaire",
             image: "images/events/bnsanniv10-5.png",
             popupTexts: [
-                "Recevez 25 Gemmes Arc en Ciel",
+                "Recevez 25 Gemmes arc-en-ciel",
                 "En vous connectant pendant la période",
             ],
             images: [
@@ -69,11 +69,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 {
             title: "Bonus de connexion",
-            description: "Bonus de connexion les plus fort de l'ére",
+            description: "Bonus de connexion \"Les plus forts de l'ère\"",
             image: "images/events/ere1.png",
             popupTexts: [
-                "Recevez des barbes a papa",
-                "Ainsi que 2 ticket Sugo Fest",
+                "Recevez des barbes à papa",
+                "et jusqu'à 2 tickets Sugo Fest",
             ],
             images: [
                 { src: "images/events/ere1.png", alt: "Image 1" },
@@ -84,11 +84,11 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
                 {
-            title: "Tente ta chance chaque jours",
-            description: "Plus tu est chanceux plus tu obtiens de gemmes",
+            title: "Tirage au sort ! Tente ta chance chaque jour",
+            description: "Plus tu es chanceux, plus tu obtiendras de gemmes",
             image: "images/events/chancezoro.png",
             popupTexts: [
-                "",
+                "↓ Retrouvez la liste des récompenses ci-dessous ↓",
                 "",
             ],
             images: [
@@ -100,8 +100,8 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
                 {
-            title: "Fêtes des pirates soutiens imprévisible",
-            description: "Obtiens Crocodile Exclusif au TM Gratuitement !",
+            title: "Fête des pirates \"soutien imprévisible\"",
+            description: "Obtiens Crocodile, légende exclusive au TM, gratuitement !",
             image: "images/events/crocopvp.png",
 
             popupTexts: [
