@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         {
             title: "Super Carte aux trésors",
-            description: "Super Carte aux trésors vs ACE",
+            description: "Super Carte aux trésors vs Vegapunk",
             image: "images/events/tmvsvega.png",
             popupTexts: [
                 "Gagnez de nombreuses récompenses",
