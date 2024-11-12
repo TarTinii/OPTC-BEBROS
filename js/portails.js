@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         {
-            title: "Nouveau Portail Sugo-Fest Anniversaire",
+            title: "Nouveau Portail Sugo-Fest spécial 10.5e Anniversaire",
             description: "Détails du nouveau portail Sugo-Fest Anniversaire",
             image: "images/events/portailAnniv.png",
             popupTexts: [
