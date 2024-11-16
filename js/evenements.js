@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Morgan",
-                    image: "images/head/Morgan.png",
+                    image: "images/head/morgan.png",
                     boost: true
                 },
                 {
