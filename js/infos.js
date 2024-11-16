@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "pendant la période du kizuna",
             ],
             images: [
-                { src: "images/events/crocoevolu.png", alt: "Image 1" },
+                { src: "images/events/portail3.png", alt: "Image 1" },
             ],
             startDate: "2024-11-19T04:00:00Z",
             endDate: "2024-11-24T05:00:59Z",
