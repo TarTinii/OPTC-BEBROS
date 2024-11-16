@@ -4,22 +4,40 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const eventsData = [
 
-
         {
-            title: "Super Evolution Crocodile",
-            description: "",
-            image: "images/events/croco6+.png",
+            title: "Super Kizuna vs Crocodile",
+            description: "Super Kizuna vs Crocodile",
+            image: "images/events/kizuvscroco.png",
             popupTexts: [
-                "Farmer la nouvelle 6+ de crocodile",
-                "pendant la période du kizuna",
+                "Gagnez de nombreuses récompenses",
+                "Et évoluez Crocodile dans sa version 6+",
+                "&nbsp",
+                "↓ Retrouvez la liste des personnages boostés ci-dessous ↓",
             ],
             images: [
-                { src: "images/events/crocoevolu.png", alt: "Image 1" },
-            ],
-            startDate: "2024-11-12T04:00:00Z",
-            endDate: "2024-11-12T05:00:59Z",
-        },
+                { src: "images/events/kizunavscrocodileboosts.png", alt: "Image 3" },
 
+            ],
+            startDate: "2024-11-19T11:00:00Z",
+            endDate: "2024-11-24T15:59:59Z",
+            characters: [
+                {
+                    name: "bonney",
+                    image: "images/head/babyym.png",
+                    boost: true
+                },
+                {
+                    name: "Morgan",
+                    image: "images/head/Morgan.png",
+                    boost: true
+                },
+                {
+                    name: "vivi2",
+                    image: "images/head/vivi2.png",
+                    boost: true
+                },
+            ]
+  }, 
 
         {
             title: "Super Carte aux trésors",

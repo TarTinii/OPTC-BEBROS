@@ -4,6 +4,21 @@ document.addEventListener("DOMContentLoaded", function () {
     const infosData = [
 
         {
+            title: "Super Evolution Crocodile",
+            description: "",
+            image: "images/events/croco6+.png",
+            description: [
+                "Farmer la nouvelle 6+ de crocodile",
+                "pendant la période du kizuna",
+            ],
+            images: [
+                { src: "images/events/crocoevolu.png", alt: "Image 1" },
+            ],
+            startDate: "2024-11-19T04:00:00Z",
+            endDate: "2024-11-24T05:00:59Z",
+        },
+
+        {
             title: "Bazar des Médailles",
             description: "Nouveau bazar des médailles",
             image: "images/events/medail.png",

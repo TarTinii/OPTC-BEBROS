@@ -10,11 +10,12 @@ document.addEventListener("DOMContentLoaded", function () {
             popupTexts: [
 
             ],
-            startDate: "2024-11-12T02:00:00",
-            endDate: "2024-12-08T02:59:59",
+            startDate: "2024-11-15T02:00:00",
+            endDate: "2024-11-24T02:59:59",
             images: [
                 //PARTIE1
-
+                { src: "images/portail/PART1KIZU.png", alt: "Image 1" },
+                { src: "images/portail/PART2KIZU.png", alt: "Image 1" },
             ],
             characters: [
                 {
