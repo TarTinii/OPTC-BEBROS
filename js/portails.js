@@ -3,6 +3,37 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const portailsData = [
 
+        {
+            title: "Nouveau Portail Sugo-Fest Kizuna / Support ",
+            description: "Détails du nouveau portail Sugo-Fest Kizuna / Support",
+            image: "images/events/portailkizuna.png",
+            popupTexts: [
+
+            ],
+            startDate: "2024-11-12T02:00:00",
+            endDate: "2024-12-08T02:59:59",
+            images: [
+                //PARTIE1
+
+            ],
+            characters: [
+                {
+                    name: "bonney",
+                    image: "images/head/babyym.png",
+                    newbatch: true
+                },
+                {
+                    name: "Morgan",
+                    image: "images/head/Morgan.png",
+                    newbatch: true
+                },
+                {
+                    name: "vivi2",
+                    image: "images/head/vivi2.png",
+                    newbatch: true
+                },
+            ]
+        },
 
         {
             title: "Nouveau Portail Sugo-Fest spécial 10.5e Anniversaire",

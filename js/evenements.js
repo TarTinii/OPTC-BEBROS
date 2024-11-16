@@ -4,6 +4,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const eventsData = [
 
+
+        {
+            title: "Super Evolution Crocodile",
+            description: "",
+            image: "images/events/croco6+.png",
+            popupTexts: [
+                "Farmer la nouvelle 6+ de crocodile",
+                "pendant la période du kizuna",
+            ],
+            images: [
+                { src: "images/events/crocoevolu.png", alt: "Image 1" },
+            ],
+            startDate: "2024-11-12T04:00:00Z",
+            endDate: "2024-11-12T05:00:59Z",
+        },
+
+
         {
             title: "Super Carte aux trésors",
             description: "Super Carte aux trésors vs Vegapunk",
