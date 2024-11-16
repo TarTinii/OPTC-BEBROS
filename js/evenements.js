@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "images/events/kizuvscroco.png",
             popupTexts: [
                 "Gagnez de nombreuses récompenses",
-                "Et évoluez Crocodile dans sa version 6+",
+                "et évoluez Crocodile dans sa version 6+",
                 "&nbsp",
                 "↓ Retrouvez la liste des personnages boostés ci-dessous ↓",
             ],
